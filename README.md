@@ -1,8 +1,9 @@
 # EventSignal
 A module to create event signals on roblox
 
-Author: El3ctrox\n
-Created: 11/03/2020
+--// CREATOR
+    Author: El3ctrox
+    Created: 11/03/2020
 
 --// EXAMPLE
 
