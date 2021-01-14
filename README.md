@@ -1,13 +1,6 @@
 # EventSignal
 A module to create event signals on roblox
 
---// CREATOR
-
-    Author: El3ctrox
-    Created: 11/03/2020
-
---// EXAMPLE
-
     -- SCRIPT 1
 
     --// SERVICES
@@ -18,13 +11,13 @@ A module to create event signals on roblox
 
     --// MODULE
     local module = {
-      PlayerJoined = EventSignal:new()
+      PlayerJoined = EventSignal.new()
     }
 
     --// EVENT
     Players.PlayerAdded:Connect(function(player)
 
-      EventSignal:call( module.PlayerJoined, player)
+      EventSignal.call( module.PlayerJoined, player)
     end)
     
     -- SCRIPT 2
